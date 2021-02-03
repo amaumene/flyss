@@ -1,1 +1,1 @@
-FROM davidzz/flyss
+FROM amaumene/flyss
