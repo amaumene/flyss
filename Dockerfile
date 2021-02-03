@@ -1,1 +1,1 @@
-FROM amaumene/flyss
+FROM shadowsocks/shadowsocks-libev
