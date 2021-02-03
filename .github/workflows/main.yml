@@ -1,5 +1,10 @@
-name: Fly Deploy
-on: [push]
+name: SS Deploy
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  push:
+    branches:
+      - master
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
