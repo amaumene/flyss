@@ -1,3 +1,5 @@
+app = "still-rain-121"
+
 [build]
   image = "shadowsocks/shadowsocks-libev:latest"
 
