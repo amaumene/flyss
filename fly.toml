@@ -1,3 +1,6 @@
+[build]
+  image = "shadowsocks/shadowsocks-libev:latest"
+
 [[services]]
   internal_port = 8388
   protocol = "tcp"
